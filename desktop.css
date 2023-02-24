@@ -1,0 +1,11 @@
+@media screen and (min-width:481px) {
+  #root {
+    display: grid;
+    grid-template-rows: 1fr,1fr;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+  }
+  #root > div {
+    height: 10vh;
+  }
+}
